@@ -1,3 +1,4 @@
+import org.junit.Test;
 public class Myclass {
     public static void main(String[] args) {
         System.out.println("Hello from code");
