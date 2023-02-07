@@ -1,7 +1,7 @@
 public class Myclass {
-//    public static void main(String[] args) {
-//        System.out.println("Hello from code");
-//    }
+    public static void main(String[] args) {
+        System.out.println("Hello from code");
+    }
 //import org.junit.Test;
 //import static org.junit.Assert.assertTrue;
 //
