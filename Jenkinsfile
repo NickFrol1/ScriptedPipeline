@@ -8,6 +8,6 @@ node {
     stage('build') {
         git branch: 'main', credentialsId: 'SomeId', url: 'https://github.com/NickFrol1/ScriptedPipeline.git'
         sh 'pwd'
-        sh "javac Myclass.java"
+        sh "javac -classpath tests/Myclass.java"
     }
 }
