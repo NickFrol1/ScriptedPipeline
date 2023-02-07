@@ -2,7 +2,7 @@ node {
     stage('Hello'){
         echo 'Hello'
     }
-    stage {
+    stage('test') {
         sh 'docker ps'
     }
 }
