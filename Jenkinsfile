@@ -6,7 +6,7 @@ node {
         sh 'docker ps'
     }
     stage('build') {
-        git credentialsId: 'someId', url: 'https://github.com/NickFrol1/ScriptedPipeline.git'
+        git credentialsId: 'SomeId', url: 'https://github.com/NickFrol1/ScriptedPipeline.git'
         sh "javac -d ./compiled ${WORKSPACE}/tests/test.java"
     }
 }
