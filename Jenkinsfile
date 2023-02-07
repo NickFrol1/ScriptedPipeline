@@ -6,6 +6,7 @@ node {
         sh 'docker ps'
     }
     stage('build') {
+        git cregentialId
         sh "javac -d ./compiled ${WORKSPACE}/tests/test.java"
     }
 }
