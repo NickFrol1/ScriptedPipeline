@@ -6,7 +6,7 @@ node {
         sh 'docker ps'
     }
     stage('build') {
-        echo JOBNAME
+        echo JOB_BASE_NAME
 //        sh 'javac -d ./compiled tests/test.java'
     }
 }
