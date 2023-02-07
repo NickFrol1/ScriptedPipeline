@@ -6,7 +6,6 @@ node {
         sh 'docker ps'
     }
     stage('build') {
-        echo WORKSPACE
-//        sh 'javac -d ./compiled tests/test.java'
+        sh "javac -d ./compiled ${WORKSPACE}/tests/test.java"
     }
 }
