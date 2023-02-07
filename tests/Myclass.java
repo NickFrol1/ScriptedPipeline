@@ -16,7 +16,7 @@ public class Myclass {
 
     @Test
     public void whenSomething_thenSomething() {
-        assertTrue(true);
+        assertTrue(false);
     }
 
     @Test
